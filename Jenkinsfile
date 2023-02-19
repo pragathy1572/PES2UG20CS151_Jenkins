@@ -19,8 +19,8 @@ pipeline {
 
         stage('Deploy') {
             steps {
-               het
-                echo 'Deploy by CS151 successful'
+              
+                echo 'Deploy by CS151 successful
             }
         }
     }
