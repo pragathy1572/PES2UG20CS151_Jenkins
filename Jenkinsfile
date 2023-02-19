@@ -12,14 +12,14 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh 'cat temp.cpp;'
+                sh 'cat temp.cpp'
                 echo 'Test by CS151 successful'
             }
         }
 
         stage('Deploy') {
             steps {
-               
+               het
                 echo 'Deploy by CS151 successful'
             }
         }
