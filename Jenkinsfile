@@ -20,7 +20,7 @@ pipeline {
         stage('Deploy') {
             steps {
               
-                echo 'Deploy by CS151 successful
+                ehco 'Deploy by CS151 successful'
             }
         }
     }
